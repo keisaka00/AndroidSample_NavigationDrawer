@@ -1,2 +1,2 @@
 # AndroidSample_NavigationDrawer
-VisualStudioで生成したNavigation Drawのサンプルの解析内容をコメント追加したもの
+AndroidStudioで生成したNavigation Drawのサンプルの解析内容をコメント追加したもの
