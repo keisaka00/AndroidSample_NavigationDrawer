@@ -26,7 +26,11 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     buildFeatures {
-        viewBinding true
+        viewBinding true    // ViewBindingを使用する宣言
+                            // ※これによって、ViewのXML全てのファイル名に対して
+                            // 　スネークケースがキャメルケースに変換されて、
+                            // 　末尾にBindingと名前が付いたファイルが生成されます。
+                            // 　activity_main.xml -> ActivityMainBinding
     }
 }
 
